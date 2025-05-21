@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- Primary colors -->
+    <color name="red">#FF0000</color>      <!-- Red -->
+    <color name="blue">#0000FF</color>     <!-- Blue -->
+    <color name="yellow">#FFFF00</color>   <!-- Yellow -->
+
+    <!-- Secondary colors -->
+    <color name="orange">#FFA500</color>   <!-- Orange -->
+    <color name="green">#00FF00</color>    <!-- Green -->
+    <color name="purple">#800080</color>   <!-- Purple -->
+
+    <!-- Tertiary colors -->
+    <color name="red_orange">#FF4500</color>      <!-- Red-Orange -->
+    <color name="yellow_green">#ADFF2F</color>    <!-- Yellow-Green -->
+    <color name="blue_green">#00CED1</color>      <!-- Blue-Green -->
+    <color name="blue_violet">#8A2BE2</color>     <!-- Blue-Violet -->
+    <color name="red_violet">#C71585</color>      <!-- Red-Violet -->
+</resources>

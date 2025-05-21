@@ -1,0 +1,32 @@
+# build
+/build/
+**/build/
+caches/
+
+# android studio
+.idea/
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+*.iml
+.gradle
+.cxx/
+
+# ambiente local
+/local.properties
+
+# macOS
+.DS_Store
+
+# logs 
+*.log
+
+# chaves etc.
+*.keystore
+/captures
+.externalNativeBuild
+
+

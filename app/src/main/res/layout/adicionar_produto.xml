@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="500dp"
+    android:layout_gravity="center"
+    android:background="@drawable/border">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tituloPopup"
+            android:text="Adicionar Produtos"
+            android:textSize="20sp"
+            android:layout_margin="10dp"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:id="@+id/nomePopup"
+            android:hint="Insira o nome do produto: "
+            android:layout_below="@+id/tituloPopup"
+            android:layout_centerHorizontal="true" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:id="@+id/valorPopup"
+            android:layout_below="@+id/nomePopup"
+            android:inputType="numberDecimal"
+            android:hint="Insira o valor do produto: "
+            android:layout_centerHorizontal="true"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:id="@+id/obsPopup"
+            android:layout_below="@+id/valorPopup"
+            android:inputType="text"
+            android:hint="Observações: "
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:maxWidth="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imagemPopup"
+            android:layout_marginStart="5dp"
+            android:layout_below="@id/obsPopup"
+            android:scaleType="centerInside"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/selecionarImagem"
+            android:text="Selecionar Imagem"
+            android:layout_below="@id/imagemPopup"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"/>
+
+
+        <Button
+            android:id="@+id/cancelarPopup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="30dp"
+            android:textColor="@color/black"
+            android:text="CANCELAR" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/adicionarPopup"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="30dp"
+            android:text="ADICIONAR" />
+
+</RelativeLayout>

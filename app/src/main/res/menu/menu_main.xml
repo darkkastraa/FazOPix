@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    android:checkableBehavior="single">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/login"
+            android:title="Entrar"
+            android:icon="@drawable/baseline_login_24" />
+        <item
+            android:id="@+id/home"
+            android:title="Página Inicial"
+            android:icon="@drawable/baseline_home_24" />
+        <item
+            android:id="@+id/cart"
+            android:title="Carrinho"
+            android:icon="@drawable/baseline_shopping_cart_24" />
+        <item
+            android:id="@+id/favorite"
+            android:title="Favoritos"
+            android:icon="@drawable/baseline_star_24" />
+    </group>
+    <item
+        android:id="@+id/logout"
+        android:title="Sair"
+        android:icon="@drawable/baseline_logout_24" />
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/addProduct"
+            android:title="Adicionar Produto"
+            android:icon="@drawable/baseline_add_circle_outline_24" />
+        <item
+            android:id="@+id/myProducts"
+            android:title="Meus Produtos"
+            android:icon="@drawable/baseline_sell_24" />
+        <item
+            android:id="@+id/mySales"
+            android:title="Minhas Promoções"
+            android:icon="@drawable/baseline_percent_24" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/settings"
+            android:title="Configurações"
+            android:icon="@drawable/baseline_settings_24" />
+    </group>
+    <group>
+        <item
+            android:id="@+id/idUser"
+            android:title="ID do usuário" />
+    </group>
+</menu>

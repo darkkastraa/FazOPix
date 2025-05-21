@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LojaFazOPix</string>
+    <string name="menuUsername">Anônimo</string>
+    <string name="menuEmail">anonimo@fazopix.com</string>
+    <string name="open">Open Navigation Drawer</string>
+    <string name="close">Close Navigation Drawer</string>
+</resources>

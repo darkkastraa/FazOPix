@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="120dp"
+    android:background="@drawable/round_card_background"
+    android:layout_margin="5dp"
+    android:padding="5dp"
+    >
+
+    <ImageView
+        android:id="@+id/Card_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/nomeView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome do produto"
+        android:layout_toEndOf="@id/Card_image"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:id="@+id/precoView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preço do produto"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_below="@id/nomeView"
+        android:layout_toEndOf="@id/Card_image" />
+
+    <Button
+        android:id="@+id/Card_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_toEndOf="@id/Card_image"
+        android:layout_below="@id/precoView"
+        android:text="comprar" />
+
+    <ImageButton
+        android:id="@+id/Card_add"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toEndOf="@id/Card_button"
+        android:background="@drawable/invisible_border"
+        android:scaleType="centerCrop"
+        android:scaleY="0.8"
+        android:scaleX="0.8"
+        android:src="@drawable/baseline_shopping_cart_24" />
+
+</RelativeLayout>
